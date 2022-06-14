@@ -69,8 +69,8 @@ form.add-input {
   margin-top: 0.9rem;
 }
 
-.submit-btn {
-  margin-left: 7rem;
+button.submit-btn {
+  margin-left: 8rem;
 }
 
 .input:focus {
