@@ -39,6 +39,10 @@ body {
   margin-left: 2rem;
 }
 
+.score {
+  padding: 0.2rem;
+}
+
 .score-board {
   border: 1px solid rgb(10, 10, 10);
   margin-left: 2.4rem;
@@ -62,6 +66,7 @@ form.add-input {
   display: flex;
   flex-direction: column;
   gap: 0.9rem;
+  margin-top: 0.9rem;
 }
 
 .submit-btn {
