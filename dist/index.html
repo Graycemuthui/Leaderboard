@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+  <script defer src="index.js"></script></head>
+  <body>
+    <section class="main-section">
+      <header class="main-header">
+        <h1>Leaderboard</h1>
+      </header>
+
+      <section class="main-body">
+        <section class="scores">
+          <div class="refresh-section">
+            <h3>Recent scores</h3>
+            <button class="refresh-btn">Refresh</button>
+          </div>
+          <div class="scoreboard" id="scoreboard">
+            <div class="white-container">
+              <p class="title-descr">Name: 100</p>
+            </div>
+            <div class="blue-container">
+              <p class="title-descr">Name: 20</p>
+            </div>
+            <div class="white-container">
+              <p class="title-descr">Name: 50</p>
+            </div>
+            <div class="blue-container">
+              <p class="title-descr">Name: 78</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-validation">
+          <form class="add-input">
+            <h3>Add your score</h3>
+            <input
+              type="text"
+              id="input"
+              class="input"
+              placeholder="Your name"
+            />
+            <input
+              type="number"
+              id="number"
+              class="input"
+              placeholder="Your score"
+            />
+            <button type="submit" class="submit-button">Submit</button>
+          </form>
+        </section>
+      </section>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+  background-image: url("../images/golf.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.main-section {
+  border: 1px solid rgb(159, 156, 156);
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-body {
+  display: flex;
+  gap: 3rem;
+}
+
+.main-header {
+  padding: 1.2rem;
+}
+
+.refresh-section {
+  display: flex;
+  gap: 2rem;
+  padding: 0.6rem;
+  margin-left: 2rem;
+}
+
+.scoreboard {
+  border: 1px solid rgb(10, 10, 10);
+  margin-left: 2.4rem;
+}
+
+.blue-container {
+  background-color: rgb(212, 238, 241);
+  padding: 0.3rem;
+}
+
+.white-container {
+  background-color: #fff;
+  padding: 0.3rem;
+}
+
+.form-validation {
+  display: flex;
+}
+
+form.add-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-top: 0.9rem;
+}
+
+button.submit-btn {
+  margin-left: 8rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::placeholder {
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Helvetica,
+      Arial,
+      sans-serif,
+      "Apple Color Emoji",
+      "Segoe UI Emoji";
+    background-image: url("../images/golf.jpg");
+    background-size: 180%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .main-section {
+    width: 111%;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+}
