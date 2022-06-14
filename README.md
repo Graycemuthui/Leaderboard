@@ -1,6 +1,6 @@
 ### Leadership List App
 
-- This is a Microverse project that entails a to-do-list which one is able to add and remove tasks.
+- This is a Microverse project that entails a leadership score board.
 
 ## Built With
 
