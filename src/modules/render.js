@@ -1,14 +1,15 @@
 // Create a function that renders the score board
-const scoreBoard = document.getElementById("scoreboard");
-export const renderScoreBoard = (scores) => {
-  console.log(scores);
-  let template = "";
-  scores.map((score, i) => {
+const scoreBoard = document.getElementById('scoreboard');
+
+const renderScoreBoard = (scores) => {
+  let template = '';
+  scores.forEach((score, i) => {
     template += `
     <div class="${
-      i % 2 === 0 ? "blue-container" : "white-container"
-    }" id="score-board"-${i}">
+  i % 2 === 0 ? 'blue-container' : 'white-container'
+}" id="score-board"-${i}">
     <p class="title-descr"> ${score.user}: ${score.score} </p></div>`;
   });
   scoreBoard.innerHTML = template;
 };
+export default renderScoreBoard;

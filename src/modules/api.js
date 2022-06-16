@@ -1,32 +1,32 @@
-import { renderScoreBoard } from "./render";
+import renderScoreBoard from './render';
 
-const user = document.getElementById("user");
-const score = document.getElementById("score");
+const user = document.getElementById('user');
+const score = document.getElementById('score');
 
-export class Api {
+export default class Api {
   static addScore = async () => {
     await fetch(
-      "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/WiVBhQ7VdpGwGAAkg1BV/scores/ ",
+      'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/WiVBhQ7VdpGwGAAkg1BV/scores/ ',
       {
-        method: "POST",
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           user: user.value,
           score: score.value,
         }),
-      }
+      },
     );
-    user.value = "";
-    score.value = "";
+    user.value = '';
+    score.value = '';
   };
 
   static getScores = async () => {
-    let result = await fetch(
-      "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/WiVBhQ7VdpGwGAAkg1BV/scores/"
+    const result = await fetch(
+      'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/WiVBhQ7VdpGwGAAkg1BV/scores/',
     );
-    let data = await result.json();
+    const data = await result.json();
     renderScoreBoard(data.result);
   };
 }
