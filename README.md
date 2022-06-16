@@ -1,3 +1,8 @@
+
+### Screenshot
+- Here is a screenshot of the project.
+![Screenshot from 2022-06-16 18-59-01](https://user-images.githubusercontent.com/95374858/174114896-8a80a52c-cee3-4c15-9dc3-4447e8d7333a.png)
+
 ### Leadership List App
 
 - This is a Microverse project that entails a leadership score board.
