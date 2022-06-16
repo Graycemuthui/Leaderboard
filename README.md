@@ -37,7 +37,8 @@
 
 ## Acknowledgements
 
-- Background image by Kindel Media in [pexels](https://www.pexels.com/photo/person-wearing-white-glove-holding-a-golf-ball-6573883/)
+- Background image by Markus Spiske in [unsplash](https://unsplash.com/photos/J_tbkGWxCH0)
+- Background image by King Siberia in [pexels](https://www.pexels.com/photo/silhouette-photo-of-portable-basketball-2277981/)
 
 ## 📝 License
 
