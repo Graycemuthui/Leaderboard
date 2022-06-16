@@ -18,20 +18,7 @@
             <h3>Recent scores</h3>
             <button class="refresh-btn">Refresh</button>
           </div>
-          <div class="scoreboard" id="scoreboard">
-            <div class="white-container">
-              <p class="title-descr">Name: 100</p>
-            </div>
-            <div class="blue-container">
-              <p class="title-descr">Name: 20</p>
-            </div>
-            <div class="white-container">
-              <p class="title-descr">Name: 50</p>
-            </div>
-            <div class="blue-container">
-              <p class="title-descr">Name: 78</p>
-            </div>
-          </div>
+          <div class="scoreboard" id="scoreboard"></div>
         </section>
 
         <section class="form-validation">
@@ -39,22 +26,20 @@
             <h3>Add your score</h3>
             <input
               type="text"
-              id="input"
+              id="user"
               class="input"
               placeholder="Your name"
             />
             <input
               type="number"
-              id="number"
+              id="score"
               class="input"
               placeholder="Your score"
             />
-            <button type="submit" class="submit-button">Submit</button>
+            <button type="submit" class="submit" id="submit">Submit</button>
           </form>
         </section>
       </section>
     </section>
-
-    <script src="./index.js"></script>
   </body>
 </html>
