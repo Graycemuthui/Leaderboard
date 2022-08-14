@@ -6,7 +6,7 @@ const score = document.getElementById('score');
 export default class Api {
   static addScore = async () => {
     await fetch(
-      'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/WiVBhQ7VdpGwGAAkg1BV/scores/ ',
+      'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SrhSeNg2rfT09fUzllGO/scores/ ',
       {
         method: 'POST',
         headers: {
