@@ -31,7 +31,7 @@
 - Using git, clone the code to your machine or download a Zip File.
 
 ### Deployment
-- Here is the live view of this project [link](https://graycemuthui.github.io/Leaderboard/dist/)
+- Here is the live view of this project [link](https://cheerful-strudel-59a62d.netlify.app)
 
 ## 🤝 Contributing
 
