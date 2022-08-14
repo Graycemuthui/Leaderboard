@@ -24,7 +24,7 @@ export default class Api {
 
   static getScores = async () => {
     const result = await fetch(
-      'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/WiVBhQ7VdpGwGAAkg1BV/scores/',
+      'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SrhSeNg2rfT09fUzllGO/scores/',
     );
     const data = await result.json();
     renderScoreBoard(data.result);
